@@ -55,7 +55,7 @@ The following `.gitignore` rules are used to prevent the specified repository ar
 ```gitignore
 /build/
 *.env
-/test-runs/log/
+/test-runs/logs
 *.csv
 ```
 
@@ -63,7 +63,7 @@ The following `.gitignore` rules are used to prevent the specified repository ar
 
 - `/build/` – Ignores all files inside the `build` directory at the root of the repository.
 - `*.env` – Ignores all files ending with `.env`.
-- `/test-runs/log/` – Ignores all files inside the `test-runs/log` directory.
+- `/test-runs/logs` – Ignores all files inside the `test-runs/logs` directory.
 - `*.csv` – Ignores all CSV files anywhere in the repository.
 
 ---
@@ -93,3 +93,6 @@ WhatsApp notification is optional. The existing email notification behavior rema
 **Source Branch:** Feature branch created from the main development branch.
 
 **Destination Branch:** Main development branch.
+
+**PR Reviewers:** Anurag N, Prem Pedamallu
+

@@ -19,7 +19,7 @@ Before setting up the project locally, make sure you have:
 
 ### 1. Clone the repository
 
-git clone <repository-url>
+git clone https://github.com/Kaushal1122/country-capital-api.git
 
 ### 2. Navigate to the project directory
 
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 Start the API using Uvicorn.
 
-<appropriate uvicorn command>
+uvicorn main:app --reload
 
 The API will then be available locally.
 

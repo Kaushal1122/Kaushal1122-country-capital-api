@@ -1,4 +1,4 @@
 /build/
 *.env
-/test-runs/log/
+/test-runs/logs
 *.csv
